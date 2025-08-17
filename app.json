@@ -16,14 +16,14 @@
     "assetBundlePatterns": ["**/*"],
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.namamu.monimoney"
+      "bundleIdentifier": "com.sansancoa.monimoney"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "package": "com.namamu.monimoney"
+      "package": "com.sansancoa.monimoney"
     },
     "web": {
       "favicon": "./assets/favicon.png"
