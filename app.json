@@ -1,32 +1,42 @@
 {
-  "expo": {
-    "name": "monimoney",
-    "slug": "monimoney",
-    "version": "1.0.0",
-    "orientation": "portrait",
-    "icon": "./assets/icon.png",
-    "splash": {
-      "image": "./assets/splash.png",
-      "resizeMode": "contain",
+  "name": "monimoney",
+  "slug": "monimoney",
+  "version": "1.0.0",
+  "orientation": "portrait",
+  "icon": "./assets/icon.png",
+  "splash": {
+    "image": "./assets/splash.png",
+    "resizeMode": "contain",
+    "backgroundColor": "#ffffff"
+  },
+  "updates": {
+    "fallbackToCacheTimeout": 0
+  },
+  "assetBundlePatterns": [
+    "**/*"
+  ],
+  "ios": {
+    "supportsTablet": true,
+    "bundleIdentifier": "com.sansancoa.monimoney"
+  },
+  "android": {
+    "adaptiveIcon": {
+      "foregroundImage": "./assets/adaptive-icon.png",
       "backgroundColor": "#ffffff"
     },
-    "updates": {
-      "fallbackToCacheTimeout": 0
-    },
-    "assetBundlePatterns": ["**/*"],
-    "ios": {
-      "supportsTablet": true,
-      "bundleIdentifier": "com.sansancoa.monimoney"
-    },
-    "android": {
-      "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
-      },
-      "package": "com.sansancoa.monimoney"
-    },
-    "web": {
-      "favicon": "./assets/favicon.png"
+    "package": "com.sansancoa.monimoney"
+  },
+  "web": {
+    "favicon": "./assets/favicon.png"
+  },
+  "sdkVersion": "53.0.0",
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "extra": {
+    "eas": {
+      "projectId": "15824883-749d-4da8-b3f9-3be7436b454d"
     }
   }
 }
